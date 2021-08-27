@@ -8,6 +8,6 @@ class SendMail
         $base_url = 'http://tinyurl.com/api-create.php?url=';
         $url = $base_url .''. $urlQr;
         $turl=Http::get($url);
-        return $turl;
+        return $turl->body();
     }
 }
