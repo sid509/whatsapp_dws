@@ -1,0 +1,19 @@
+{
+    "name": "sudip_dws/whatsapp",
+    "description": "A Simple testing packages",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sudip Dahal",
+            "email": "sudipdahal509@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dws\\Whatsapp\\": "src/"
+        }
+    }
+}
